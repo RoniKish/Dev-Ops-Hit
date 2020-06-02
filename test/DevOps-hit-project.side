@@ -1,0 +1,77 @@
+{
+  "id": "88fc3184-e0be-4f9b-b646-d5732032c00d",
+  "version": "2.0",
+  "name": "DevOps-hit-project",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "630498a0-4d37-442c-8bb5-1afc753be8b0",
+    "name": "Test1",
+    "commands": [{
+      "id": "b411d655-02b0-4f87-9730-b877466a0ff0",
+      "comment": "",
+      "command": "open",
+      "target": "/RoniKishner/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25d88a28-ffff-4532-a4a9-c22ae07bb0ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "914x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6f0a5f7-c7d3-4ffc-b2e6-df1bcedad1a9",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e29d7e95-caae-4610-afd0-857c887b9ca6",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Roni"
+    }, {
+      "id": "479f06d8-83ff-4ce1-a63e-ff5ab6ceec71",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Dev Ops Hit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f08aec-a4ee-49a6-b617-2523f965632c",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Generate number']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "77dfa52f-6e7f-4c5a-b703-d22800eebc35",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["630498a0-4d37-442c-8bb5-1afc753be8b0"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

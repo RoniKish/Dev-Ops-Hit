@@ -20,7 +20,7 @@
     </form>
   
     <%
-      if (userName != null) {
+      if (userName != "") {
     %>
       <h2>Hello <%=userName%>, Your number is: <%=randomNum%></h2>
       <%
